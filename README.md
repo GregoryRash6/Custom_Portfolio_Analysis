@@ -1,6 +1,4 @@
-
-
-![](Images/finedu.JPG)
+![Logo](Images/finedu.JPG)
 
 # FinEdu
 
@@ -18,43 +16,58 @@ Performance and Risk Analysis are helpful to understand how a stock performed wi
 #### ***Performance Analysis***
 
 * **Daily Returns**
+* Purpose: Looking at the daily returns of stocks helps to see daily performance comparisons.
   
     ![Daily Returns](Images/daily_returns.png)
    
 * **Cumulative Returns**
+* Purpose: A cumulative return on an investment is the aggregate amount that the investment has gained or lost over time, in a time period.
 
-     ![](Images/cumulative_returns.png)
+     ![Cumulative Returns](Images/cumulative_returns.png)
 
 
 * **Exponentially Weighted Moving Average**
+* Purpose: The EWMA of a stock can be used as a condfidence indiacator, meaning that a strong but declining stock should have a hard time moving below the EWMA. EWMA can help you to determine what actions to take with an asset depending on its relative position to the close price.
 
 
-   ![](Images/ewma.png)
+   ![EWMA](Images/ewma.png)
 
 #### ***Risk Analysis***
 
-* **Standard Deviation**
+* **Risk Analysis**
+* Purpose: Risk Analysis is a good tool to weigh the risk versus return for an entire portfolio or a single asset or security.
 
-    ![](Images/std.png)
+    ![Risk Analysis](Images/portfolio_scatter.png)
+
+
+
+* **Standard Deviation**
+* Purpose: The Standard Deviation (STD) is a measure of the volatility of a stock.
+
+    ![Standard Deviation](Images/std.png)
 
 * **Sharpe Ratio**
+* Purpose: The ratio describes the compensation an investor will receive for the extra volatility endured when holding a riskier asset.
   
-    ![](Images/sharpe_ratios.png)
+    ![Sharpe Ratios](Images/sharpe_ratios.png)
 
 * **Rolling Standard Deviation**
+* Purpose: The Rolling STD looks at changes in volatility over time.
 
-    ![](Images/rollingstdplot.png)
+    ![Rolling STD](Images/rollingstdplot.png)
+    
+* **Rolling Mean**
+* Purpose: Taking the 30 day rolling average smoothes the graphs and makes it easier to see overall trends.
 
-## Forecasting
+    ![Rolling STD](Images/rollingmeansplot.png)
 
-Monte Carlo Simulation is one of the main analysis tool to forecast a stock's future moves. 
+#### ***Forecasting***
 
-#### **Monte Carlo Simulation**
+* **Monte Carlo Simulation**
 
-**Definition:** Computational algorithms that rely on repeated random sampling to obtain numerical results.
+* Purpose: The underlying concept is to use randomness to solve problems that might be deterministic in principle.
 
-**Purpose:** The underlying concept is to use randomness to solve problems that might be deterministic in principle.
+    ![Monte Carlo](Images/MC_plot_simulation.png)
 
-![](Images/MC_plot_simulation.png)
 
 
